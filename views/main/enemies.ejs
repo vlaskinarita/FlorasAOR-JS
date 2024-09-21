@@ -1,0 +1,435 @@
+<div class="container px-6 mx-auto grid">
+  <!-- Header -->
+  <div class="grid gap-6 mb-8">
+    <div class="mt-6 flex items-start p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+      <div>
+        <h2 class="text-4xl font-semibold text-gray-600 dark:text-gray-300">Enemies</h2>
+      </div>
+    </div>
+
+    <!-- Classic Enemies -->
+    <table>
+      <td>
+        <div class="p-6 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+          <div class="mb-4">
+            <h4 class="text-2xl font-semibold text-gray-600 dark:text-gray-300">Classic Enemies</h4>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAllEnemies" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">All</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingNormalEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Normal</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingMediumEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Medium</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingEnchantedEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Enchanted</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingMiniBossEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Mini-Boss</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingBossEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Boss</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <!-- Avalon Enemies -->
+        <div class="p-6 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+          <div class="mb-4">
+            <h4 class="text-2xl font-semibold text-gray-600 dark:text-gray-300">Avalon Enemies</h4>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonAllEnemies" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">All</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonNormalEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Drone</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonMediumEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Pathfinder</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonEnchantedEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Avalonian</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonMiniBossEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Mini-Boss</span>
+              </label>
+            </div>
+            <div>
+              <label class="flex items-center space-x-2">
+                <input type="checkbox" id="settingAvalonBossEnemy" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+                <span class="dark:text-white ml-2">Boss</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </td>
+    </table>
+
+    <!-- Mists -->
+    <div class="p-6 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+      <div class="mb-4">
+        <h4 class="text-2xl font-semibold text-gray-600 dark:text-gray-300">Mists</h4>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingBossCrystalSpider" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Arcane Spiderling</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingBossFairyDragon" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Fey Dragon</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingBossVeilWeaver" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Veilweaver</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingBossGriffin" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Griffin</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other -->
+    <div class="p-6 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+      <div class="mb-4">
+        <h4 class="text-2xl font-semibold text-gray-600 dark:text-gray-300">Other</h4>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingAvaloneDrones" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Avalone Drones</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingShowEventEnemies" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Event enemies</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center mt-4">
+            <span class="dark:text-white mr-2">Min HP:</span>
+            <input type="number" id="settingMinHP" class="h-10 w-20 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" min="1" max="1000000" value="1" />
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Debug -->
+    <div class="p-6 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+      <div class="mb-4">
+        <h4 class="text-2xl font-semibold text-gray-600 dark:text-gray-300">Debug</h4>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingEnemiesHP" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Show HP</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingEnemiesID" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Show Enemy ID</span>
+          </label>
+        </div>
+        <div>
+          <label class="flex items-center space-x-2">
+            <input type="checkbox" id="settingShowUnmanagedEnemies" class="h-5 w-5 text-indigo-600 border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500" />
+            <span class="dark:text-white ml-2">Show unmanaged enemies</span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function returnLocalBool(item) {
+    return localStorage.getItem(item) == "true";
+  }
+
+  // Region Classic enemies
+  const settingNormalEnemy = document.getElementById("settingNormalEnemy");
+  const settingMediumEnemy = document.getElementById("settingMediumEnemy");
+  const settingEnchantedEnemy = document.getElementById("settingEnchantedEnemy");
+  const settingMiniBossEnemy = document.getElementById("settingMiniBossEnemy");
+  const settingBossEnemy = document.getElementById("settingBossEnemy");
+
+  settingNormalEnemy.checked = returnLocalBool("settingNormalEnemy");
+  settingMediumEnemy.checked = returnLocalBool("settingMediumEnemy");
+  settingEnchantedEnemy.checked = returnLocalBool("settingEnchantedEnemy");
+  settingMiniBossEnemy.checked = returnLocalBool("settingMiniBossEnemy");
+  settingBossEnemy.checked = returnLocalBool("settingBossEnemy");
+
+  settingNormalEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingNormalEnemy", settingNormalEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingMediumEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingMediumEnemy", settingMediumEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingEnchantedEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingEnchantedEnemy", settingEnchantedEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingMiniBossEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingMiniBossEnemy", settingMiniBossEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingBossEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingBossEnemy", settingBossEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+
+  let updatingAllEnemies = false;
+  const settingAllEnemies = document.getElementById("settingAllEnemies");
+  settingAllEnemies.checked = returnLocalBool("settingAllEnemies");
+  settingAllEnemies.addEventListener("click", () => {
+    updatingAllEnemies = true;
+
+    localStorage.setItem("settingAllEnemies", settingAllEnemies.checked);
+
+    if (settingNormalEnemy.checked != settingAllEnemies.checked) settingNormalEnemy.click(true);
+    if (settingMediumEnemy.checked != settingAllEnemies.checked) settingMediumEnemy.click(true);
+    if (settingEnchantedEnemy.checked != settingAllEnemies.checked) settingEnchantedEnemy.click(true);
+    if (settingMiniBossEnemy.checked != settingAllEnemies.checked) settingMiniBossEnemy.click(true);
+    if (settingBossEnemy.checked != settingAllEnemies.checked) settingBossEnemy.click(true);
+
+    updatingAllEnemies = false;
+  });
+
+  function HasToCheckCheckAllEnemies() {
+    if (updatingAllEnemies) return;
+
+    let hasToCheck = false;
+
+    if (
+      (settingNormalEnemy.checked && settingMediumEnemy.checked && settingEnchantedEnemy.checked && settingMiniBossEnemy.checked && settingBossEnemy.checked && !settingAllEnemies.checked) ||
+      ((!settingNormalEnemy.checked || !settingMediumEnemy.checked || !settingEnchantedEnemy.checked || !settingMiniBossEnemy.checked || !settingBossEnemy.checked) && settingAllEnemies.checked)
+    )
+      hasToCheck = true;
+
+    if (!hasToCheck) return;
+
+    settingAllEnemies.checked = !settingAllEnemies.checked;
+    localStorage.setItem("settingAllEnemies", settingAllEnemies.checked);
+  }
+  // Endregion
+  
+  // Region Avalon Classic enemies
+  const settingAvalonNormalEnemy = document.getElementById("settingAvalonNormalEnemy");
+  const settingAvalonMediumEnemy = document.getElementById("settingAvalonMediumEnemy");
+  const settingAvalonEnchantedEnemy = document.getElementById("settingAvalonEnchantedEnemy");
+  const settingAvalonMiniBossEnemy = document.getElementById("settingAvalonMiniBossEnemy");
+  const settingAvalonBossEnemy = document.getElementById("settingAvalonBossEnemy");
+
+  settingAvalonNormalEnemy.checked = returnLocalBool("settingAvalonNormalEnemy");
+  settingAvalonMediumEnemy.checked = returnLocalBool("settingAvalonMediumEnemy");
+  settingAvalonEnchantedEnemy.checked = returnLocalBool("settingAvalonEnchantedEnemy");
+  settingAvalonMiniBossEnemy.checked = returnLocalBool("settingAvalonMiniBossEnemy");
+  settingAvalonBossEnemy.checked = returnLocalBool("settingAvalonBossEnemy");
+
+  settingAvalonNormalEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingAvalonNormalEnemy", settingAvalonNormalEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingAvalonMediumEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingAvalonMediumEnemy", settingAvalonMediumEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingAvalonEnchantedEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingAvalonEnchantedEnemy", settingAvalonEnchantedEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingAvalonMiniBossEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingAvalonMiniBossEnemy", settingAvalonMiniBossEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+  settingAvalonBossEnemy.addEventListener("click", () => {
+    localStorage.setItem("settingAvalonBossEnemy", settingAvalonBossEnemy.checked);
+    HasToCheckCheckAllEnemies();
+  });
+
+  let updatingAvalonAllEnemies = false;
+  const settingAvalonAllEnemies = document.getElementById("settingAvalonAllEnemies");
+  settingAvalonAllEnemies.checked = returnLocalBool("settingAvalonAllEnemies");
+  settingAvalonAllEnemies.addEventListener("click", () => {
+    updatingAvalonAllEnemies = true;
+
+    localStorage.setItem("settingAvalonAllEnemies", settingAvalonAllEnemies.checked);
+
+    if (settingAvalonNormalEnemy.checked != settingAvalonAllEnemies.checked) settingAvalonNormalEnemy.click(true);
+    if (settingAvalonMediumEnemy.checked != settingAvalonAllEnemies.checked) settingAvalonMediumEnemy.click(true);
+    if (settingAvalonEnchantedEnemy.checked != settingAvalonAllEnemies.checked) settingAvalonEnchantedEnemy.click(true);
+    if (settingAvalonMiniBossEnemy.checked != settingAvalonAllEnemies.checked) settingAvalonMiniBossEnemy.click(true);
+    if (settingAvalonBossEnemy.checked != settingAvalonAllEnemies.checked) settingAvalonBossEnemy.click(true);
+
+    updatingAvalonAllEnemies = false;
+  });
+
+  function HasToCheckCheckAllEnemies() {
+    if (updatingAvalonAllEnemies) return;
+
+    let hasToCheck = false;
+
+    if (
+      (settingAvalonNormalEnemy.checked && settingAvalonMediumEnemy.checked && settingAvalonEnchantedEnemy.checked && settingAvalonMiniBossEnemy.checked && settingAvalonBossEnemy.checked && !settingAvalonAllEnemies.checked) ||
+      ((!settingAvalonNormalEnemy.checked || !settingAvalonMediumEnemy.checked || !settingAvalonEnchantedEnemy.checked || !settingAvalonMiniBossEnemy.checked || !settingAvalonBossEnemy.checked) && settingAvalonAllEnemies.checked)
+    )
+      hasToCheck = true;
+
+    if (!hasToCheck) return;
+
+    settingAvalonAllEnemies.checked = !settingAvalonAllEnemies.checked;
+    localStorage.setItem("settingAvalonAllEnemies", settingAvalonAllEnemies.checked);
+  }
+  // Endregion
+
+  // Region Other
+  const settingAvaloneDrones = document.getElementById("settingAvaloneDrones");
+  settingAvaloneDrones.checked = returnLocalBool("settingAvaloneDrones");
+  settingAvaloneDrones.addEventListener("click", () => {
+    localStorage.setItem("settingAvaloneDrones", settingAvaloneDrones.checked);
+  });
+
+  const settingShowUnmanagedEnemies = document.getElementById("settingShowUnmanagedEnemies");
+  settingShowUnmanagedEnemies.checked = returnLocalBool("settingShowUnmanagedEnemies");
+  settingShowUnmanagedEnemies.addEventListener("click", () => {
+    localStorage.setItem("settingShowUnmanagedEnemies", settingShowUnmanagedEnemies.checked);
+  });
+
+  const settingShowEventEnemies = document.getElementById("settingShowEventEnemies");
+  settingShowEventEnemies.checked = returnLocalBool("settingShowEventEnemies");
+  settingShowEventEnemies.addEventListener("click", () => {
+    localStorage.setItem("settingShowEventEnemies", settingShowEventEnemies.checked);
+  });
+
+  const settingMinHP = document.getElementById("settingMinHP");
+  settingMinHP.value = localStorage.getItem("settingMinHP") || 1;
+  settingMinHP.addEventListener("change", () => {
+    let minHPValue = parseInt(settingMinHP.value, 10);
+    if (isNaN(minHPValue) || minHPValue < 1) {
+      minHPValue = 1;
+    } else if (minHPValue > 1000000) {
+      minHPValue = 1000000;
+    }
+    settingMinHP.value = minHPValue;
+    localStorage.setItem("settingMinHP", minHPValue);
+  });
+  // endregion
+
+  // region Mists
+  const settingBossCrystalSpider = document.getElementById("settingBossCrystalSpider");
+  const settingBossFairyDragon = document.getElementById("settingBossFairyDragon");
+  const settingBossVeilWeaver = document.getElementById("settingBossVeilWeaver");
+  const settingBossGriffin = document.getElementById("settingBossGriffin");
+
+  settingBossCrystalSpider.checked = returnLocalBool("settingBossCrystalSpider");
+  settingBossFairyDragon.checked = returnLocalBool("settingBossFairyDragon");
+  settingBossVeilWeaver.checked = returnLocalBool("settingBossVeilWeaver");
+  settingBossGriffin.checked = returnLocalBool("settingBossGriffin");
+
+  settingBossCrystalSpider.addEventListener("click", () => {
+    localStorage.setItem("settingBossCrystalSpider", settingBossCrystalSpider.checked);
+  });
+  settingBossFairyDragon.addEventListener("click", () => {
+    localStorage.setItem("settingBossFairyDragon", settingBossFairyDragon.checked);
+  });
+  settingBossVeilWeaver.addEventListener("click", () => {
+    localStorage.setItem("settingBossVeilWeaver", settingBossVeilWeaver.checked);
+  });
+  settingBossGriffin.addEventListener("click", () => {
+    localStorage.setItem("settingBossGriffin", settingBossGriffin.checked);
+  });
+  // Endregion
+
+  // Region Debug
+  const settingEnemiesHP = document.getElementById("settingEnemiesHP");
+  settingEnemiesHP.checked = returnLocalBool("settingEnemiesHP");
+  settingEnemiesHP.addEventListener("click", () => {
+    localStorage.setItem("settingEnemiesHP", settingEnemiesHP.checked);
+  });
+
+  const settingEnemiesID = document.getElementById("settingEnemiesID");
+  settingEnemiesID.checked = returnLocalBool("settingEnemiesID");
+  settingEnemiesID.addEventListener("click", () => {
+    localStorage.setItem("settingEnemiesID", settingEnemiesID.checked);
+  });
+  // Endregion
+</script>
+
+<style>
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .group .group-hover\:opacity-100 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+
+  .relative.group .absolute {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(0.5rem) translateY(-50%);
+    pointer-events: none;
+  }
+</style>

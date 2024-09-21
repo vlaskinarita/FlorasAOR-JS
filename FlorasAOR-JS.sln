@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FlorasAOR-JS", "FlorasAOR-JS.njsproj", "{EBD53905-C7C0-4AC2-B989-C85F76EF4AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBD53905-C7C0-4AC2-B989-C85F76EF4AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD53905-C7C0-4AC2-B989-C85F76EF4AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD53905-C7C0-4AC2-B989-C85F76EF4AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD53905-C7C0-4AC2-B989-C85F76EF4AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A02F6D8-002B-4667-9080-294A627BF89C}
+	EndGlobalSection
+EndGlobal

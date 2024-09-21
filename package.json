@@ -1,0 +1,29 @@
+{
+  "name": "AOR Extended",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nexe -b app.js --resource \"views/**/*\" --resource \"scripts/**/*\" --verbose"
+  },
+  "author": "SWMG",
+  "license": "ISC",
+  "dependencies": {
+    "buffercursor": "^0.0.12",
+    "cap": "^0.2.1",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nan": "^2.20.0",
+    "node-gyp": "^10.1.0",
+    "npm": "^10.8.1",
+    "open": "^10.1.0",
+    "path": "^0.12.7",
+    "readline-sync": "^1.4.10",
+    "sass": "^1.77.6",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.0"
+  }
+}
