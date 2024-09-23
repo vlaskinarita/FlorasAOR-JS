@@ -11,7 +11,10 @@ and I'll also rewrite all the crappy code that's out there in abundance.
 And I will make a new method of rendering through ImGui. The overlay will be transparent and show on top of the game right out of the box. 
 Also enemies will be visible if they use the invisibility flak. They will be shown as a faze that runs towards you. 
 
-## 🔰 video demonstration of how my radar works will be a little later - collect silver and you can use it.
+## 🔰 video demonstration of how my radar works(alpha verdion)
+http://cpb.ru/1Ejyowp1PE.mp4
+
+Well, I've almost finished everything - just debugging and caching. Ideally this idea is shit, about what fuckSBI said yesterday - in this case I fully agree with him. Anyway, on JS I'll convert it for you in an hour and update it. Now I'm running away - I need to get the goods - and I will be only in 3 hours and will post a video with working radar on JS. Prepare 50,000,000 silver - or I'll never fucking update anything for you...
 
 So in my version of radar you can interactively debug code directly in the visual studio instead of in the browser.
 And you can practice a bit of programming if you are interested.
