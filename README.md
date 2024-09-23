@@ -4,12 +4,8 @@ I am an active developer of two versions of the kernel (on traffic analysis and 
 You can make sure of my competence by watching the video demonstrating the work of my core here: https://www.youtube.com/@AlbionMasha
 
 ## 🔰 a concept idea for this radar
-This radar is based on the basic version of @fashionflora, which he opubiked when he had a fight with @FuckSBI one year ago. 
-I made a temporary version on it that supports getting the coordinates of enemies if they use their skils.  
-I just have two subscriptions to renew and no time to farm. So Get me 50.000.000 silver in the game and I will activate that option. 
-and I'll also rewrite all the crappy code that's out there in abundance. 
-And I will make a new method of rendering through ImGui. The overlay will be transparent and show on top of the game right out of the box. 
-Also enemies will be visible if they use the invisibility flak. They will be shown as a faze that runs towards you. 
+This radar is based on a basic version @fashionflora posted after a fight (according to Flora) with @FuckSBI a year ago. I made a temporary version based on it that supports getting enemies coordinates if they use their skils.
+I have two subscriptions to renew and no time to farm. So give me 50,000,000 silver in game and I will activate this option. I'll also rewrite all the crappy code that's out there in abundance. And I'll make a new method of rendering through ImGui. The overlay will be transparent and will display on top of the game right out of the box. Also, enemies will be visible if they are using invisibility armor. They will be displayed as a phase that runs towards you.
 
 ## 🔰 video demonstration of how my radar works(alpha verdion)
 http://cpb.ru/1Ejyowp1PE.mp4
