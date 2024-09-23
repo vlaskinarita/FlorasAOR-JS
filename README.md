@@ -1,9 +1,18 @@
+## 🔰 important information
+this is not a scam project! 
+I am an active developer of two versions of the kernel (on traffic analysis and reading RAM via DMA) for online albon botting.  
+You can make sure of my competence by watching the video demonstrating the work of my core.
+
 ## 🔰 a concept idea for this radar
-I made a temporary radar that supports getting the coordinates of enemies if they use their skils.  
-I just have two subscriptions to renew and no time to farm. I'll rewrite old floras radar and you give me the silver.  Get me 50.000.000 silver in the game and I will activate that option. 
+This radar is based on the basic version of @fashionflora, which he opubiked when he had a fight with @FuckSBI one year ago. 
+I made a temporary version on it that supports getting the coordinates of enemies if they use their skils.  
+I just have two subscriptions to renew and no time to farm. So Get me 50.000.000 silver in the game and I will activate that option. 
+and I'll also rewrite all the crappy code that's out there in abundance. 
+And I will make a new method of rendering through ImGui. The overlay will be transparent and show on top of the game right out of the box. 
 Also enemies will be visible if they use the invisibility flak. They will be shown as a faze that runs towards you. 
 
-video demonstration of how my radar works will be a little later - collect silver and you can use it. 
+## 🔰 video demonstration of how my radar works will be a little later - collect silver and you can use it.
+
 So in my version of radar you can interactively debug code directly in the visual studio instead of in the browser.
 And you can practice a bit of programming if you are interested.
 It is also completely safe because it is open source.
