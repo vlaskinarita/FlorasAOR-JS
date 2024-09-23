@@ -1,6 +1,6 @@
 ## 🔰 important information
 this is not a scam project! 
-I am an active developer of two versions of the kernel (on traffic analysis and reading RAM via DMA) for online albon botting.  
+I am an active developer of two versions of the kernel (on traffic analysis and reading RAM via DMA) for Albion Online botting.  
 You can make sure of my competence by watching the video demonstrating the work of my core here: https://www.youtube.com/@AlbionMasha
 
 ## 🔰 a concept idea for this radar
