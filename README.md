@@ -1,3 +1,13 @@
+## 🔰 a concept idea for this radar
+I made a temporary radar that supports getting the coordinates of enemies if they use their skils.  
+I just have two subscriptions to renew and no time to farm. I'll rewrite old floras radar and you give me the silver.  Get me 50.000.000 silver in the game and I will activate that option. 
+Also enemies will be visible if they use the invisibility flak. They will be shown as a faze that runs towards you. 
+
+video demonstration of how my radar works will be a little later - collect silver and you can use it. 
+So in my version of radar you can interactively debug code directly in the visual studio instead of in the browser.
+And you can practice a bit of programming if you are interested.
+It is also completely safe because it is open source.
+
 ## 🔰 How to Run (Windows)
 1. Download and install [Node.js v18.18.2 (64-bit)](https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi).
 2. Download and install [Npcap 1.80](https://npcap.com/dist/npcap-1.80.exe).
